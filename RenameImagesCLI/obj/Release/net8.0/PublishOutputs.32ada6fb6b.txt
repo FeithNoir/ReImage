@@ -1,0 +1,5 @@
+I:\Recursos\NetCore\ReImageCLI\RenameImagesCLI.exe
+I:\Recursos\NetCore\ReImageCLI\RenameImagesCLI.dll
+I:\Recursos\NetCore\ReImageCLI\RenameImagesCLI.deps.json
+I:\Recursos\NetCore\ReImageCLI\RenameImagesCLI.runtimeconfig.json
+I:\Recursos\NetCore\ReImageCLI\RenameImagesCLI.pdb

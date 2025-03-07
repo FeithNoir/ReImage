@@ -1,10 +1,12 @@
-﻿namespace ImageRenamer
+﻿using System;
+using System.IO;
+
+namespace ImageRenamer
 {
     class Program
     {
         static void Main(string[] args)
         {
-
             string rutaCarpeta;
 
             Console.WriteLine("Ingrese la palabra que desea agregar al nombre de las imágenes:");
@@ -27,8 +29,13 @@
                 return;
             }
 
+            // Definir los formatos de imagen admitidos
+            string[] formatosAdmitidos = { "*.jpg", "*.jpeg", "*.png", "*.gif", "*.bmp", "*.tiff" };
+
             // Obtener la lista de archivos de imagen en la carpeta
-            string[] archivos = Directory.GetFiles(rutaCarpeta, "*.jpg");
+            var archivos = formatosAdmitidos
+                .SelectMany(formato => Directory.GetFiles(rutaCarpeta, formato))
+                .ToArray();
 
             if (archivos.Length == 0)
             {
@@ -42,7 +49,8 @@
             // Renombrar los archivos
             for (int i = 0; i < archivos.Length; i++)
             {
-                string nuevoNombre = $"{palabra}_{(i + 1).ToString("000")}.jpg";
+                string extension = Path.GetExtension(archivos[i]); // Obtener la extensión del archivo original
+                string nuevoNombre = $"{palabra}_{(i + 1).ToString("000")}{extension}";
                 string nuevaRuta = Path.Combine(Path.GetDirectoryName(archivos[i]), nuevoNombre);
                 File.Move(archivos[i], nuevaRuta);
                 Console.WriteLine($"Renombrado: {archivos[i]} => {nuevaRuta}");
@@ -50,7 +58,6 @@
 
             Console.WriteLine("Proceso completado. Presione cualquier tecla para salir...");
             Console.ReadKey();
-
         }
     }
 }
