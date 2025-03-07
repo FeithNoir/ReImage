@@ -1,0 +1,14 @@
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\bin\Debug\net8.0\RenameImagesCLI.exe
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\bin\Debug\net8.0\RenameImagesCLI.deps.json
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\bin\Debug\net8.0\RenameImagesCLI.runtimeconfig.json
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\bin\Debug\net8.0\RenameImagesCLI.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\bin\Debug\net8.0\RenameImagesCLI.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.AssemblyInfoInputs.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.AssemblyInfo.cs
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.csproj.CoreCompileInputs.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\refint\RenameImagesCLI.dll
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.pdb
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\RenameImagesCLI.genruntimeconfig.cache
+C:\Users\Admin1\Documents\Recursos\NetCore\RenameImagesCLI\RenameImagesCLI\obj\Debug\net8.0\ref\RenameImagesCLI.dll
